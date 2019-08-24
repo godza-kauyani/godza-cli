@@ -1,0 +1,33 @@
+{
+  "name": "@godza-kauyani/godza",
+  "version": "1.0.0",
+  "description": "a commandline app",
+  "main": "lib/app.js",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^3.0.0",
+    "email-prompt": "^0.3.2",
+    "esm": "^3.2.25",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "pkg": "^4.4.0",
+    "request": "^2.88.0",
+    "simple-git": "^1.124.0",
+    "walk": "^2.3.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "godza-kauyani  <kauyanigodfrey@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "@godza-kauyani/godza": "bin/godza",
+    "godza": "bin/godza"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
