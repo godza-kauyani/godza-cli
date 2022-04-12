@@ -14,7 +14,7 @@
     "inquirer": "^7.0.0",
     "pkg": "^4.4.0",
     "request": "^2.88.0",
-    "simple-git": "^1.124.0",
+    "simple-git": "^3.5.0",
     "walk": "^2.3.14"
   },
   "devDependencies": {},
